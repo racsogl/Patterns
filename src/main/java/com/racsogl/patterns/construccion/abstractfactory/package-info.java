@@ -1,6 +1,6 @@
 /**
- * El objetivo es la creación de objetos agrupados en familias sin tener que conocer las clase concretas destinadas a
- * la creación de objetos.
+ * El objetivo es la creación de objetos agrupados en familias sin tener que conocer las
+ * clase concretas destinadas a la creación de objetos.
  *
  * Dominios de uso.
  * Un sistema que utiliza productos necesita ser independiente de la forma en que se crean y agrupan estos productos.
