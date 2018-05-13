@@ -8,7 +8,7 @@ import java.util.List;
  * Puede ser abstract y poseer varias subclases en casos de impl. diferentes.
  */
 public abstract class Documentacion {
-    List<String> contenido = new ArrayList<String>();
+    List<String> contenido = new ArrayList<>();
 
     public abstract void agregaDocumento(String documento);
     public abstract void imprime();
