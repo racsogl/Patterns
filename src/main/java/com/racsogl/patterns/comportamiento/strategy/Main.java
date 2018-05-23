@@ -1,6 +1,6 @@
 package com.racsogl.patterns.comportamiento.strategy;
 
-public class Usuario {
+public class Main {
     public static void main(String[] args) {
         VistaCatalogo vistaCatalogo1 = new VistaCatalogo(new
                 DibujaTresVehiculosPorLinea());
