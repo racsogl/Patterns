@@ -7,22 +7,17 @@ public class Gerente implements ApruebaPrestamo {
 
     private ApruebaPrestamo next;
 
-    @Override
     public void setNext(ApruebaPrestamo apruebaPrestamo) {
         next = apruebaPrestamo;
-
-
     }
 
-    @Override
     public ApruebaPrestamo getNext() {
         return next;
     }
 
-    @Override
     public void solicitudPrestamo(Double cantidad) {
         if (cantidad <= 100000) {
-            System.out.println("Lo maneja el Genrente");
+            System.out.println("Lo maneja el Gerente");
         } else {
             getNext().solicitudPrestamo(cantidad);
         }
