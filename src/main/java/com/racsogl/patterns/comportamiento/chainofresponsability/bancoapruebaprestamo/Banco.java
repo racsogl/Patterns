@@ -22,6 +22,5 @@ public class Banco implements ApruebaPrestamo {
         gerente.setNext(director);
 
         next.solicitudPrestamo(cantidad);
-
     }
 }
