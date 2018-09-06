@@ -5,7 +5,7 @@ package com.racsogl.patterns.comportamiento.chainofresponsability;
  */
 public abstract class ObjetoBasico {
 
-    protected ObjetoBasico siguiente;
+    private ObjetoBasico siguiente;
 
     private String descripcionPorDefecto() {
         return "descripcion por defecto";
@@ -13,7 +13,7 @@ public abstract class ObjetoBasico {
 
     protected abstract String getDescripcion();
 
-    public String devuelveDescripcion() {
+    String devuelveDescripcion() {
         String resultado = this.getDescripcion();
         if (resultado != null)
             return resultado;
@@ -23,7 +23,7 @@ public abstract class ObjetoBasico {
             return this.descripcionPorDefecto();
     }
 
-    public void setSiguiente(ObjetoBasico siguiente) {
+    void setSiguiente(ObjetoBasico siguiente) {
         this.siguiente = siguiente;
     }
 }
