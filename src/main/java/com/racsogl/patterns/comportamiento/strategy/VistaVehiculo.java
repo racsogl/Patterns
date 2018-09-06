@@ -1,9 +1,12 @@
 package com.racsogl.patterns.comportamiento.strategy;
 
+/*
+Objeto que representa lo que se va a mostrar por pantalla.
+ */
 public class VistaVehiculo {
-    protected String descripcion;
+    private String descripcion;
 
-    public VistaVehiculo(String descripcion) {
+    VistaVehiculo(String descripcion) {
         this.descripcion = descripcion;
     }
 

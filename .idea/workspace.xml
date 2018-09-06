@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37be430a-91ac-417f-923b-c9e58c14f8a5" name="Default" comment="">
+    <list default="true" id="37be430a-91ac-417f-923b-c9e58c14f8a5" name="Default" comment="refactor chainofresponsability">
       <change beforePath="$PROJECT_DIR$/.idea/Patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Patterns.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/builder/Documentacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/builder/Documentacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/ObjetoBasico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/ObjetoBasico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaCatalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaCatalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaCatalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaCatalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaVehiculo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,34 +21,38 @@
     <session id="-860763196">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="3" />
-          <entry key="java" value="15" />
+          <entry key="java" value="54" />
+          <entry key="ll" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="54" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="318" />
-          <entry key="java" value="5" />
+          <entry key="java" value="1444" />
+          <entry key="ll" value="204" />
+          <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="PLAIN_TEXT" value="318" />
+          <entry key="JAVA" value="1444" />
+          <entry key="PLAIN_TEXT" value="568" />
         </counts>
       </usages-collector>
     </session>
@@ -60,95 +63,74 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Banco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="45">
+              <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Gerente.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaCatalogo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="240">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Director.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/ApruebaPrestamo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Modelo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Vehiculo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaCatalogo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/ObjetoBasico.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaTresVehiculosPorLinea.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="180">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Marca.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaVehiculo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding>
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaUnVehiculoPorLinea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,14 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaVehiculo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaCatalogo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/training/Interpreter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/training/ParseAbono.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/estructuracion/adapter/DocumentoHtml.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/estructuracion/adapter/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/estructuracion/adapter/Documento.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/estructuracion/adapter/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/estructuracion/adapter/DocumentoPdf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/estructuracion/adapter/package-info.java" />
@@ -203,14 +177,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/AutenticacionLDAP.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/FactoriaAutenticacion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaCatalogo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Marca.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Modelo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/ObjetoBasico.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/ApruebaPrestamo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/FirmaAndCustodia.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/Ricoch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/CC3m.java" />
@@ -218,10 +189,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/builder/Documentacion.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/FirmaDocumentos.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/README" />
-        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Vehiculo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Banco.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Gerente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Vehiculo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/ObjetoBasico.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/cadenaresponsabilidad/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/cadenaresponsabilidad/ConfirmSign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/cadenaresponsabilidad/CameSign.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/cadenaresponsabilidad/FirmaCustodia.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/ll" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaCatalogo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaVehiculo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaCatalogo.java" />
       </list>
     </option>
   </component>
@@ -246,7 +228,7 @@
       </PATH>
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="2560" />
     <option name="height" value="1418" />
@@ -324,6 +306,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,20 +367,48 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="comportamiento" type="462c0819:PsiDirectoryNode" />
+              <item name="chainofresponsability" type="462c0819:PsiDirectoryNode" />
+              <item name="bancoapruebaprestamo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="comportamiento" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="construccion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="estructuracion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="work&#9;FILE&#9;file:///Users/oscar/Developer/Java/projects/Patterns/.idea/workspace.xml&#10;modu&#9;FILE&#9;file:///Users/oscar/Developer/Java/projects/Patterns/.idea/modules.xml&#10;worksp&#9;FILE&#9;file:///Users/oscar/Developer/Java/projects/Patterns/.idea/workspace.xml&#10;modules.xml&#9;FILE&#9;file:///Users/oscar/Developer/Java/projects/Patterns/.idea/modules.xml&#10;modulos.xml&#9;null&#9;null&#10;Patterns.im&#9;FILE&#9;file:///Users/oscar/Developer/Java/projects/Patterns/.idea/Patterns.iml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536083789298" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536249136531" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -443,7 +455,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -536,13 +548,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.racsogl.patterns.estructuracion.adapter.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.racsogl.patterns.comportamiento.chainofresponsability.main.Main" />
       <module name="Patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.racsogl.patterns.estructuracion.adapter.*" />
+          <option name="PATTERN" value="com.racsogl.patterns.comportamiento.chainofresponsability.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -605,19 +617,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -632,6 +644,14 @@
       <option name="presentableId" value="Default" />
       <updated>1518297193452</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor chainofresponsability">
+      <created>1536083961097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536083961097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -657,15 +677,15 @@
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19221604" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1938046" />
       <window_info id="Structure" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32919708" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50039715" side_tool="true" visible="true" weight="0.3295626" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" sideWeight="0.4980143" visible="true" weight="0.32880846" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5019857" side_tool="true" visible="true" weight="0.32880846" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.30437955" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.49960285" weight="0.3295626" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3277372" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4992057" weight="0.32730016" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -705,6 +725,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor chainofresponsability" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor chainofresponsability" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -733,55 +759,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/abstractfactory/Automovil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/abstractfactory/AutomovilGasolina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1518718906547" expanded="true" signature="67:116" ph="..." />
-            <marker date="1518718906547" expanded="true" signature="118:173" ph="/**...*/" />
-            <marker date="1518718906547" expanded="false" signature="404:415" ph=" { " />
-            <marker date="1518718906547" expanded="false" signature="455:461" ph=" }" />
-            <marker date="1518718906547" expanded="true" signature="504:690" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/abstractfactory/AutomovilElectrico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1518717238847" expanded="true" signature="67:116" ph="..." />
-            <marker date="1518717238847" expanded="true" signature="118:173" ph="/**...*/" />
-            <marker date="1518717238847" expanded="false" signature="400:411" ph=" { " />
-            <marker date="1518717238847" expanded="false" signature="451:457" ph=" }" />
-            <marker date="1518717238847" expanded="true" signature="514:701" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/abstractfactory/Scooter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/abstractfactory/Bicicleta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/abstractfactory/FabricaVehiculo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -807,37 +784,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/construccion/abstractfactory/training/EnsamblajeTV.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/AuntenticacionBD.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/AutenticacionLDAP.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaCatalogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaTresVehiculosPorLinea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaUnVehiculoPorLinea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/Autenticacion.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/training/FactoriaAutenticacion.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaVehiculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/parse.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -847,25 +796,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/ReadmePatterns">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1527106362824" expanded="true" signature="118:406" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/CC3m.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/FirmaAndCustodia.java" />
@@ -873,93 +805,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1529356548573" expanded="false" signature="59:102" ph="..." />
-            <marker date="1529356548573" expanded="true" signature="104:222" ph="/**...*/" />
-            <marker date="1529356548573" expanded="true" signature="303:311" ph="&lt;~&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaCatalogo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <marker date="1525289627600" expanded="false" signature="62:105" ph="..." />
-            <marker date="1525289627600" expanded="true" signature="107:184" ph="/**...*/" />
-            <marker date="1525289627600" expanded="true" signature="365:718" ph="{...}" />
-            <marker date="1525289627600" expanded="false" signature="744:755" ph=" { " />
-            <marker date="1525289627600" expanded="false" signature="780:786" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/Ricoch.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/example/FirmaDocumentos.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/README">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/ObjetoBasico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Marca.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Modelo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Vehiculo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/README" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/ApruebaPrestamo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -974,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Banco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Gerente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -988,6 +833,188 @@
           <folding>
             <element signature="e#275#276#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Marca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/cadenaresponsabilidad/CameSign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/cadenaresponsabilidad/ConfirmSign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/ll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/cadenaresponsabilidad/FirmaCustodia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Modelo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/ObjetoBasico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Vehiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Banco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/bancoapruebaprestamo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/chainofresponsability/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaUnVehiculoPorLinea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaCatalogo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/DibujaTresVehiculosPorLinea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaVehiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/racsogl/patterns/comportamiento/strategy/VistaCatalogo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
           </folding>
         </state>
       </provider>
