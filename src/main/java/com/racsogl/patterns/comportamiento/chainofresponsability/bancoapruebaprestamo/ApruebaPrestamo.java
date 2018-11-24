@@ -1,6 +1,6 @@
 package com.racsogl.patterns.comportamiento.chainofresponsability.bancoapruebaprestamo;
 
-public interface  ApruebaPrestamo {
+public interface ApruebaPrestamo {
 
     void setNext(ApruebaPrestamo apruebaPrestamo);
     ApruebaPrestamo getNext();
