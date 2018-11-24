@@ -3,6 +3,7 @@ package com.racsogl.patterns.comportamiento.strategy;
 import java.util.List;
 
 /**
+ * Estrategia
  * Interfaz común a todos los algoritmos.
  */
 public interface DibujaCatalogo {

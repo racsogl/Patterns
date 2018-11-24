@@ -6,7 +6,7 @@ Objeto que representa lo que se va a mostrar por pantalla.
 public class VistaVehiculo {
     private String descripcion;
 
-    VistaVehiculo(String descripcion) {
+    VistaVehiculo(final String descripcion) {
         this.descripcion = descripcion;
     }
 

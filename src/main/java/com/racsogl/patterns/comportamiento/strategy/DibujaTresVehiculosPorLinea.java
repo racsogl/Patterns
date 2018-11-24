@@ -19,7 +19,7 @@ public class DibujaTresVehiculosPorLinea implements DibujaCatalogo {
                 System.out.println();
                 contador = 0;
             } else
-                System.out.println(" ");
+                System.out.print(" ");
         }
         if (contador != 0)
             System.out.println();

@@ -1,5 +1,9 @@
 package com.racsogl.patterns.comportamiento.strategy;
 
+
+/**
+ *
+ */
 public class Main {
     public static void main(String[] args) {
         VistaCatalogo vistaCatalogo1 = new VistaCatalogo(new
