@@ -1,6 +1,6 @@
 package com.racsogl.patterns.construccion.builder;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class ClienteVehiculo {
     public static void main(String[] args) {
