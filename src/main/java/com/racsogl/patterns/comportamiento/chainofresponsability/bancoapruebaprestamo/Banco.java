@@ -9,7 +9,6 @@ public class Banco {
         Gerente gerente = new Gerente();
         Director director = new Director();
         gerente.setNext(director);
-
         gerente.solicitudPrestamo(cantidad);
     }
 }
