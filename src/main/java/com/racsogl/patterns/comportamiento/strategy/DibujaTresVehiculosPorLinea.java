@@ -3,6 +3,7 @@ package com.racsogl.patterns.comportamiento.strategy;
 import java.util.List;
 
 /**
+ * Estrategias concretas.
  * Clase que implementa el algoritmo de como dibujar.
  */
 public class DibujaTresVehiculosPorLinea implements DibujaCatalogo {
