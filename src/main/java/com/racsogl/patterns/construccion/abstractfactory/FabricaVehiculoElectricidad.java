@@ -1,5 +1,8 @@
 package com.racsogl.patterns.construccion.abstractfactory;
 
+/**
+ * Subclase de implementacion por cada familia de producto.
+ */
 public class FabricaVehiculoElectricidad implements FabricaVehiculo {
     public Automovil creaAutomovil(String modelo, String color, int potencia, double espacio) {
         return new AutomovilElectrico(modelo, color, potencia, espacio);

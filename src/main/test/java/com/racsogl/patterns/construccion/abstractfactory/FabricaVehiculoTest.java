@@ -16,7 +16,7 @@ public class FabricaVehiculoTest {
     @Test
     public void fabricaVehiculosElectricidad() {
 
-        FabricaVehiculo fabricaVehiculo = new FabricaVehiculoElectricidad();
+        final FabricaVehiculo fabricaVehiculo = new FabricaVehiculoElectricidad();
 
         final Automovil automovil = fabricaVehiculo.creaAutomovil("Ferrari", "rojo", 300, 30D);
         final Scooter scooter = fabricaVehiculo.creaScooter("Yamaha", "verde", 30);
@@ -25,6 +25,8 @@ public class FabricaVehiculoTest {
         automovil.mostrarCaracteristicas();
         scooter.mostrarCaracteristicas();
         bicicleta.mostrarCaracteristicas();
+
+
     }
 
 }
