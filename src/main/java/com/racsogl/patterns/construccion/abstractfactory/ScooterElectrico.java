@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class ScooterElectrico extends Scooter {
     private final static Logger LOGGER = LoggerFactory.getLogger(ScooterElectrico.class);
 
-    public ScooterElectrico(String modelo, String color, int potencia) {
+    ScooterElectrico(String modelo, String color, int potencia) {
         super(modelo, color, potencia);
     }
 

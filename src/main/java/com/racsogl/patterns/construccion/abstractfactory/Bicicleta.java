@@ -1,5 +1,8 @@
 package com.racsogl.patterns.construccion.abstractfactory;
 
+/**
+ * Clase abstracta que representa un producto.
+ */
 public abstract class Bicicleta {
     String rueda;
     String color;
