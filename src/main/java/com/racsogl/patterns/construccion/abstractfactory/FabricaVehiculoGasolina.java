@@ -9,10 +9,4 @@ public class FabricaVehiculoGasolina implements FabricaVehiculo {
         return new ScooterGasolina(modelo, color, potencia);
     }
 
-    public Bicicleta creaBicicleta(String rueda, String color, String marca) {
-//  No obstante si fuera necesario incluir nuevas clases de familias de vehículos
-// (diésel o mixto gasolina-eléctrico), las modificaciones a realizar en el objeto Catálogo pueden ser bastante pesadas.
-        return null;
-    }
-
 }

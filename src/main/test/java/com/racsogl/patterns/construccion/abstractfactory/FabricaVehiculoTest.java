@@ -16,15 +16,18 @@ public class FabricaVehiculoTest {
     @Test
     public void fabricaVehiculosElectricidad() {
 
-        final FabricaVehiculo fabricaVehiculo = new FabricaVehiculoElectricidad();
+        FabricaVehiculo fabricaVehiculo = new FabricaVehiculoElectricidad();
 
         final Automovil automovil = fabricaVehiculo.creaAutomovil("Ferrari", "rojo", 300, 30D);
         final Scooter scooter = fabricaVehiculo.creaScooter("Yamaha", "verde", 30);
-        final Bicicleta bicicleta = fabricaVehiculo.creaBicicleta("27,5", "rojo", "Orbea");
+        Bicicleta bicicleta = ((FabricaVehiculoElectricidad) fabricaVehiculo).creaBicicleta("27,5", "rojo", "Orbea");
 
         automovil.mostrarCaracteristicas();
         scooter.mostrarCaracteristicas();
         bicicleta.mostrarCaracteristicas();
+
+        fabricaVehiculo = new FabricaVehiculoGasolina();
+
 
 
     }
