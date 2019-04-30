@@ -20,7 +20,7 @@ public class FabricaVehiculoTest {
 
         final Automovil automovil = fabricaVehiculo.creaAutomovil("Ferrari", "rojo", 300, 30D);
         final Scooter scooter = fabricaVehiculo.creaScooter("Yamaha", "verde", 30);
-        Bicicleta bicicleta = ((FabricaVehiculoElectricidad) fabricaVehiculo).creaBicicleta("27,5", "rojo", "Orbea");
+        final Bicicleta bicicleta = fabricaVehiculo.creaBicicleta("27,5", "rojo", "Orbea");
 
         automovil.mostrarCaracteristicas();
         scooter.mostrarCaracteristicas();
